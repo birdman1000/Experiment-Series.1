@@ -1,8 +1,20 @@
+@font-face {
+  font-family: "FoglihtenNo07";
+  src: url('../fonts/FoglihtenNo07.ttf');
+  src: url('../fonts/FoglihtenNo07.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     margin: 0;
     background-color: rgb(255, 255, 255);
     line-height: 1.5;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    
+}
+
+content {
+  font-family: "open sans";
 }
 
 .content-width {
@@ -22,10 +34,12 @@ body {
     border-bottom: 2px dotted hsl(0, 0%, 0%);
     color: hsl(0, 0%, 0%);
   }
-
+  header h1 {
+    font-family: "FoglihtenNo07";
+  }
   header p {
-    color: hsl(225, 100%, 78%)
-
+    color: hsl(225, 100%, 78%);
+    font-family: "open sans";
   }
 
   h1, h2, h3 {
